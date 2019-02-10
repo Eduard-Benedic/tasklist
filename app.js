@@ -23,7 +23,6 @@ function getTasks() {
       } else {
         tasks = JSON.parse(localStorage.getItem('tasks'));
       }
-
   tasks.forEach(function(task){
 
       const li = document.createElement('li');
